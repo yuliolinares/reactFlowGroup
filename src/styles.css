@@ -1,0 +1,27 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.diagram-container {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
+.value-updater {
+	position: absolute;
+	display: flex;
+	top: 10px;
+	right: 10px;
+	z-index: 10000;
+}
+
+.value-updater__input {
+	margin: 5px;
+	width: 60px;
+}
+
+.value-updater__button {
+	margin: 5px;
+}
